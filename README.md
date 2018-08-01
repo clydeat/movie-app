@@ -1,5 +1,10 @@
 # README
 
+rails generate model Director first_name:string last_name:string 
+
+rails generate model Film title:string release_year:integer director:references 
+
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
